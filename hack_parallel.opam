@@ -16,10 +16,6 @@ depends: [
   "ppxlib"
   "sexplib" {< "v0.14"}
 ]
-depexts: [
-  "pkg-config"
-  "sqlite3"
-]
 synopsis: "Parallel and shared memory library"
 description: """
 Parallel and shared memory components used in Facebook's Hack, Flow, and Pyre
